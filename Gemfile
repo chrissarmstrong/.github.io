@@ -28,3 +28,6 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# CA, 2021-12-14:
+# if you'd like to preview your site on your computer, add the following to your site's Gemfile
+gem "github-pages", group: :jekyll_plugins

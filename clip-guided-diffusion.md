@@ -16,7 +16,7 @@ LJ Miranda has some nice historical notes on the players who created this concep
 
 I'm running code based on [this Collab](https://colab.research.google.com/drive/1FuOobQOmDJuG7rGsMWfQa883A9r4HxEO?usp=sharing#scrollTo=h4MHBPT1nirT), which has done a great job really speeding up Katherine's [CLIP Guided Diffusion notebook](https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj#scrollTo=X5gODNAMEUCR). I generate about one 256x256 image per minute on my middle-of-the-road GTX 1070 GPU (I can't generate 512x512 with my limited GPU memory). The guided diffusion approach to generating images seems to be more expressive and visually coherent than VQGAN.
 
-My routine is to get my machine working on maybe 50 or 100 images from one text prompt (overnight or when I'm stepping away for a bit). I then select the ones I like best (which is typically about 5% of them) and run those through (the very impressive) [Real-ESRGAN super resolution model](https://github.com/xinntao/Real-ESRGAN) to increase the size to 1024x1024.
+My routine is to get my machine working on maybe 50 or 100 images from one text prompt (overnight or when I'm stepping away for a bit). I then select the ones I like best (which is typically about 5% of them) and run those through (the very impressive) [Real-ESRGAN super resolution model](https://github.com/xinntao/Real-ESRGAN) to increase the size to 512x512 or 1024x1024.
 
 What follows is a quick tour through some of my favorite images, followed by a demonstration of image search also powered by CLIP.
 

@@ -18,21 +18,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Seeking Manifold
+email: my-twitter-handle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Experiments in machine learning, deep learning, reinforcement learning.
+  Musings on machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chrissarmstrong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrissarmstrong
 github_username:  chrissarmstrong
 
+#permalink: /:title/
+markdown: kramdown
+#paginate: 5
+#paginate_path: "/:num/"
+#date_format: "%b %-d, %Y"
+
 # Build settings
-#theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
+#theme: jekyll-theme-midnight
+#remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -384,6 +384,6 @@ Not sure why it thinks this is Saturn-like, but I do find it visually pleasing.
 
 ![Very Confused Look 2](/images/very-confused-look2.png)
 
-This prompt, "very confused look", cracked me up when I first ran it. Half of the images ended up being dogs. Even when the prompt is "Person with a very confused look" you occassionally get a dog thrown in.
+This prompt, "very confused look", cracked me up when I first ran it. Half of the images ended up being dogs. Even when the prompt is "Person with a very confused look" you occasionally get a dog thrown in.
 
 That's all for now. Thanks for visiting!

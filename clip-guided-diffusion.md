@@ -386,4 +386,6 @@ Not sure why it thinks this is Saturn-like, but I do find it visually pleasing.
 
 This prompt, "very confused look", cracked me up when I first ran it. Half of the images ended up being dogs. Even when the prompt is "Person with a very confused look" you occasionally get a dog thrown in.
 
+[Here is an album](https://photos.app.goo.gl/Xv7FgAAMTEUrUUZe8) with these and more of my favorites.
+
 That's all for now. Thanks for visiting!

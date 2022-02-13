@@ -6,7 +6,7 @@ permalink: /clip-guided-diffusion/
 
 ## CLIP Guided Diffusion - A Quick Intro
 
-Like many (many!) others, I've been playing around recently with systems that can create 'AI art', mostly with one called "CLIP Guided Diffusion". I didn't come up with this idea or write this code myself; credit for that goes largely to [Katherine Crowson](https://twitter.com/RiversHaveWings) and the Collab notebooks she has been releasing to the world. I'm running code derived from those (but doing so locally).
+Like many (many!) others, I've been playing around recently with systems that can create 'AI art', mostly with one called "CLIP Guided Diffusion". I didn't come up with this idea or write this code myself; credit for that goes largely to [Katherine Crowson](https://twitter.com/RiversHaveWings) and the Colab notebooks she has been releasing to the world. I'm running code derived from those (but doing so locally).
 
 What is CLIP Guided Diffusion, you ask? In a sentence, it is a system that takes a piece of text and creates images that it thinks are a good representation of that text.
 
@@ -18,7 +18,7 @@ Now if we couple CLIP with a second model that can generate images and that we c
 
 For those interested, [LJ Miranda](https://ljvmiranda921.github.io/) has some nice historical notes on the players who created this concept, relevant references, and a more in-depth explanation of how the earlier VQGAN-CLIP code works [in this post](https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/). (2022-01-03 edit: [This post](https://ml.berkeley.edu/blog/posts/clip-art/), by Charlie Snell, gives a really good historical overview of the various approaches and how they came together in 2021, but it predates the guided diffusion approach.) CLIP Guided Diffusion is conceptually the same as VQGAN-CLIP but uses a different type of model to do the image generation: [Guided Diffusion](https://github.com/openai/guided-diffusion) (also released by OpenAI). From what I've seen, the guided diffusion approach to generating images seems to be more expressive and visually coherent than VQGAN.
 
-The code I've been running lately is based on [this Collab](https://colab.research.google.com/drive/1FuOobQOmDJuG7rGsMWfQa883A9r4HxEO?usp=sharing), which has done a great job speeding up Ms. Crowson's [CLIP Guided Diffusion notebook](https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj). I generate about one 256x256 image per minute on my middle-of-the-road GTX 1070 GPU (I can't generate 512x512 with my limited GPU memory).
+The code I've been running lately is based on [this Colab](https://colab.research.google.com/drive/1FuOobQOmDJuG7rGsMWfQa883A9r4HxEO?usp=sharing), which has done a great job speeding up Ms. Crowson's [CLIP Guided Diffusion notebook](https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj). I generate about one 256x256 image per minute on my middle-of-the-road GTX 1070 GPU (I can't generate 512x512 with my limited GPU memory).
 
 My routine is to get my machine working on maybe 50 or 100 images from one text prompt (overnight or when I'm stepping away for a bit). I then select the ones I like best (which is typically about 5 - 10% of them) and run those through (the very impressive) [Real-ESRGAN super resolution model](https://github.com/xinntao/Real-ESRGAN) to increase the size to 1024x1024.
 

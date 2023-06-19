@@ -1,5 +1,4 @@
 ---
-title: Leaving Verizon
 date:   2023-06-19
 permalink: /leaving-verizon/
 ---

@@ -1,10 +1,9 @@
 ---
-title: CLIP Guided Diffusion
 date:   2021-12-18
 permalink: /clip-guided-diffusion/
 ---
 
-## CLIP Guided Diffusion
+# CLIP Guided Diffusion
 ### 2021-12-18
 ## A Quick Intro
 

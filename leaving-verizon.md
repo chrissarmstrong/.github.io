@@ -6,7 +6,7 @@ permalink: /leaving-verizon/
 # Leaving Verizon
 ### 2023-06-19
 
-Back in 2017 some folks at Verizon (most notably Lori Croushore and Alla Reznik) were willing to go out on a limb and hire me (and Karen Tuttle, my partner in crime) to help launch their first foray into AI-driven contact center automation. It was a great experience: doing build-vs-buy-vs-partner analysis was enlightening, the project had lots of energy, and we eventually landed on a partnership with an exceptional team at Astute (now Emplifi).
+Back in 2017 some folks at Verizon (most notably [Lori Croushore](https://www.linkedin.com/in/lori-croushore/) and [Alla Reznik](https://www.linkedin.com/in/allareznik/)) were willing to go out on a limb and hire me (and [Karen Tuttle](https://www.linkedin.com/in/karentuttle/), my partner in crime) to help launch their first foray into AI-driven contact center automation. It was a great experience: doing build-vs-buy-vs-partner analysis was enlightening, the project had lots of energy, and we eventually landed on a partnership with an exceptional team at Astute (now Emplifi).
 
 During that first year at Verizon, I quickly realized how much I was in over my head trying to even *evaluate* AI technology. At the same time it was obvious that the whole AI / ML scene was set to explode, and I felt pretty foolish for having not paid attention to it earlier (except for an all-too-brief fascination with neural nets back in the early 90s; one always wonders at how differently life could have turned out). The technical nature of AI also caught my interest; it had been several decades since I'd done anything requiring technical chops, and suddenly I felt an urge to understand this rapidly evolving field.
 

@@ -21,7 +21,7 @@
 title: Seeking Manifold
 email: my-twitter-handle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Musings on machine learning.
+  Musings on artificial intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chrissarmstrong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrissarmstrong

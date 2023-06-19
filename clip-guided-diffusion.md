@@ -5,6 +5,7 @@ permalink: /clip-guided-diffusion/
 ---
 
 ## CLIP Guided Diffusion - A Quick Intro
+### 2021-12-18
 
 Like many (many!) others, I've been playing around recently with systems that can create 'AI art', mostly with one called "CLIP Guided Diffusion". I didn't come up with this idea or write this code myself; credit for that goes largely to [Katherine Crowson](https://twitter.com/RiversHaveWings) and the Colab notebooks she has been releasing to the world. I'm running code derived from those (but doing so locally).
 
